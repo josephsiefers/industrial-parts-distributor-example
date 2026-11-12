@@ -12,9 +12,25 @@ _Avoid_: PO (in prose), order (unqualified), request
 The record the distributor creates in its ERP to fulfil a Purchase Order, written in the distributor's terms (its SKUs, customer account, prices).
 _Avoid_: order (unqualified), ERP order, entry
 
+**Draft Sales Order**:
+The distributor's interpretation of a Purchase Order before it is posted, recording where each value came from and any flags raised; it either posts straight through or waits in the Review Queue.
+_Avoid_: draft (unqualified), pending order, staged order
+
 **SKU**:
 The distributor's own identifier for a part it sells.
 _Avoid_: item number, part number (unqualified)
+
+**Customer**:
+A business that buys from the distributor, identified by its account in the ERP.
+_Avoid_: account (unqualified), client, buyer
+
+**Ship-To**:
+A delivery address on file in the ERP for a Customer; a Sales Order ships to exactly one.
+_Avoid_: delivery address, location, site
+
+**Unit of Measure**:
+The unit a quantity is counted in (each, box, case, foot, roll); a SKU is sold in one selling Unit of Measure, and a Purchase Order may use another that must be converted.
+_Avoid_: UOM (in prose), unit (unqualified), pack
 
 **Customer Part Number**:
 A customer's own identifier for a part, which the customer writes on its Purchase Orders in place of the SKU.
@@ -23,6 +39,10 @@ _Avoid_: CPN, their SKU
 **Cross-Reference**:
 A per-customer mapping from a Customer Part Number to a SKU.
 _Avoid_: xref, alias table, mapping
+
+**Flag**:
+A specific reason a Draft Sales Order needs an Inside-Sales Rep's attention, pointing at the field it concerns; a blocking Flag keeps the draft out of Straight-Through Processing.
+_Avoid_: exception, error, warning, alert
 
 **Straight-Through Processing**:
 Turning a Purchase Order into a posted Sales Order with no Inside-Sales Rep touching it.
