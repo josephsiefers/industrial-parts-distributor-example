@@ -1,0 +1,17 @@
+Good morning,
+
+Please enter PO 78812 below. Ship to our main plant. Acct 10442.
+
+Line  Item#        Mfr Part        Description                         Qty   UOM   Price     Ext
+1     TSF-00931    91251A540      SHCS 1/4-20X3/4 BLK OX ALLOY STL    400   EA    0.21      84.00
+2     TSF-01277                   HEX NUT 3/8-16 GR8 YEL ZN             5    C    11.40      57.00
+3     TSF-00412    98023A031      FLAT WASHER 3/8 SAE ZN            1000   EA    0.06      60.00
+4                  2-RL-14THHN    14 AWG THHN BLK 500FT                 2   RL   48.50      79.00
+5     FREIGHT                     FREIGHT - PREPAID & ADD               1   EA   35.00      35.00
+                                                                            TOTAL           315.00
+
+Delivery requested 11/30/2026.
+
+Thanks,
+Carla Mendez
+Purchasing, Tri-State Fabrication

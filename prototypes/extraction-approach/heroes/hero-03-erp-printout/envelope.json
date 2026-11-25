@@ -1,0 +1,9 @@
+{
+  "from": "Calder Purchasing <noreply-purchasing@caldermfg.example>",
+  "to": [
+    "orders@midwestfastener.example"
+  ],
+  "cc": [],
+  "subject": "Purchase Order P0061734 from Calder Manufacturing Inc",
+  "receivedAt": "2026-11-24T08:40:00Z"
+}

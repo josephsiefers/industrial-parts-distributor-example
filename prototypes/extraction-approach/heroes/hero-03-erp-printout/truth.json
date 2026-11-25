@@ -1,0 +1,254 @@
+{
+  "classification": "purchase_order",
+  "expectedPurchaseOrder": {
+    "poNumber": "P0061734",
+    "poDate": "24-NOV-26",
+    "requestedDeliveryDate": null,
+    "customerAccountNumber": "CAL-2207",
+    "shipToText": "CALDER MFG - BLDG C RECEIVING\n2240 INDUSTRIAL PKWY DOCK 4\nDAYTON OH 45414",
+    "billToText": "ACCOUNTS PAYABLE, PO BOX 8812, DAYTON OH 45401",
+    "notes": "SPECIAL INSTRUCTIONS: MATERIAL CERTS REQUIRED ON ALL GR8 ITEMS.\n*** CONFIRM ALL PRICES BEFORE SHIPPING - PACKING SLIP MUST SHOW PO NUMBER ***",
+    "orderTotal": 1157.2,
+    "lines": [
+      {
+        "kind": "product",
+        "rawText": "001 C-HCS-5-0612    HCS 5/16-18 X 3/4 GR5 ZP            500 EA       0.1420        71.00  01-DEC-26",
+        "lineNumber": "001",
+        "identifiers": [
+          {
+            "value": "C-HCS-5-0612",
+            "label": "ITEM NUMBER"
+          }
+        ],
+        "description": "HCS 5/16-18 X 3/4 GR5 ZP",
+        "quantity": 500,
+        "uom": "EA",
+        "unitPrice": 0.142,
+        "extendedPrice": 71.0,
+        "requestedDeliveryDate": "01-DEC-26"
+      },
+      {
+        "kind": "product",
+        "rawText": "002 C-HCS-5-0616    HCS 5/16-18 X 1 GR5 ZP              500 EA       0.1580        79.00  01-DEC-26",
+        "lineNumber": "002",
+        "identifiers": [
+          {
+            "value": "C-HCS-5-0616",
+            "label": "ITEM NUMBER"
+          }
+        ],
+        "description": "HCS 5/16-18 X 1 GR5 ZP",
+        "quantity": 500,
+        "uom": "EA",
+        "unitPrice": 0.158,
+        "extendedPrice": 79.0,
+        "requestedDeliveryDate": "01-DEC-26"
+      },
+      {
+        "kind": "product",
+        "rawText": "003 C-HCS-8-0820    HCS 1/2-13 X 1-1/4 GR8 YZ           200 EA       0.6100       122.00  01-DEC-26",
+        "lineNumber": "003",
+        "identifiers": [
+          {
+            "value": "C-HCS-8-0820",
+            "label": "ITEM NUMBER"
+          }
+        ],
+        "description": "HCS 1/2-13 X 1-1/4 GR8 YZ",
+        "quantity": 200,
+        "uom": "EA",
+        "unitPrice": 0.61,
+        "extendedPrice": 122.0,
+        "requestedDeliveryDate": "01-DEC-26"
+      },
+      {
+        "kind": "product",
+        "rawText": "004 C-HN-5-05       HEX NUT 5/16-18 GR5 ZP               10 BX       9.8500        98.50  01-DEC-26",
+        "lineNumber": "004",
+        "identifiers": [
+          {
+            "value": "C-HN-5-05",
+            "label": "ITEM NUMBER"
+          }
+        ],
+        "description": "HEX NUT 5/16-18 GR5 ZP",
+        "quantity": 10,
+        "uom": "BX",
+        "unitPrice": 9.85,
+        "extendedPrice": 98.5,
+        "requestedDeliveryDate": "01-DEC-26"
+      },
+      {
+        "kind": "product",
+        "rawText": "005 C-HN-8-08       HEX NUT 1/2-13 GR8 YZ                 2 BX      14.2000        28.40  01-DEC-26",
+        "lineNumber": "005",
+        "identifiers": [
+          {
+            "value": "C-HN-8-08",
+            "label": "ITEM NUMBER"
+          }
+        ],
+        "description": "HEX NUT 1/2-13 GR8 YZ",
+        "quantity": 2,
+        "uom": "BX",
+        "unitPrice": 14.2,
+        "extendedPrice": 28.4,
+        "requestedDeliveryDate": "01-DEC-26"
+      },
+      {
+        "kind": "product",
+        "rawText": "006 C-FW-05         FLAT WASHER 5/16 USS ZP           1,000 EA       0.0310        31.00  01-DEC-26",
+        "lineNumber": "006",
+        "identifiers": [
+          {
+            "value": "C-FW-05",
+            "label": "ITEM NUMBER"
+          }
+        ],
+        "description": "FLAT WASHER 5/16 USS ZP",
+        "quantity": 1000,
+        "uom": "EA",
+        "unitPrice": 0.031,
+        "extendedPrice": 31.0,
+        "requestedDeliveryDate": "01-DEC-26"
+      },
+      {
+        "kind": "product",
+        "rawText": "007 C-FW-08         FLAT WASHER 1/2 USS ZP              500 EA       0.0590        29.50  01-DEC-26",
+        "lineNumber": "007",
+        "identifiers": [
+          {
+            "value": "C-FW-08",
+            "label": "ITEM NUMBER"
+          }
+        ],
+        "description": "FLAT WASHER 1/2 USS ZP",
+        "quantity": 500,
+        "uom": "EA",
+        "unitPrice": 0.059,
+        "extendedPrice": 29.5,
+        "requestedDeliveryDate": "01-DEC-26"
+      },
+      {
+        "kind": "product",
+        "rawText": "008 C-LW-05         LOCK WASHER 5/16 ZP               1,000 EA       0.0220        22.00  01-DEC-26",
+        "lineNumber": "008",
+        "identifiers": [
+          {
+            "value": "C-LW-05",
+            "label": "ITEM NUMBER"
+          }
+        ],
+        "description": "LOCK WASHER 5/16 ZP",
+        "quantity": 1000,
+        "uom": "EA",
+        "unitPrice": 0.022,
+        "extendedPrice": 22.0,
+        "requestedDeliveryDate": "01-DEC-26"
+      },
+      {
+        "kind": "product",
+        "rawText": "009 C-SHCS-0610     SHCS M6-1.0 X 20 12.9 BLK           300 EA       0.1900        57.00  08-DEC-26",
+        "lineNumber": "009",
+        "identifiers": [
+          {
+            "value": "C-SHCS-0610",
+            "label": "ITEM NUMBER"
+          }
+        ],
+        "description": "SHCS M6-1.0 X 20 12.9 BLK",
+        "quantity": 300,
+        "uom": "EA",
+        "unitPrice": 0.19,
+        "extendedPrice": 57.0,
+        "requestedDeliveryDate": "08-DEC-26"
+      },
+      {
+        "kind": "product",
+        "rawText": "010 C-SHCS-0825     SHCS M8-1.25 X 25 12.9 BLK          300 EA       0.2700        81.00  08-DEC-26",
+        "lineNumber": "010",
+        "identifiers": [
+          {
+            "value": "C-SHCS-0825",
+            "label": "ITEM NUMBER"
+          }
+        ],
+        "description": "SHCS M8-1.25 X 25 12.9 BLK",
+        "quantity": 300,
+        "uom": "EA",
+        "unitPrice": 0.27,
+        "extendedPrice": 81.0,
+        "requestedDeliveryDate": "08-DEC-26"
+      },
+      {
+        "kind": "product",
+        "rawText": "011 C-NYL-06        NYLOCK NUT M6 CL8 ZP                300 EA       0.0750        22.50  08-DEC-26",
+        "lineNumber": "011",
+        "identifiers": [
+          {
+            "value": "C-NYL-06",
+            "label": "ITEM NUMBER"
+          }
+        ],
+        "description": "NYLOCK NUT M6 CL8 ZP",
+        "quantity": 300,
+        "uom": "EA",
+        "unitPrice": 0.075,
+        "extendedPrice": 22.5,
+        "requestedDeliveryDate": "08-DEC-26"
+      },
+      {
+        "kind": "product",
+        "rawText": "012 C-TB-14         THREAD LOCKER BLUE 242 50ML           6 EA      18.9500       113.70  01-DEC-26",
+        "lineNumber": "012",
+        "identifiers": [
+          {
+            "value": "C-TB-14",
+            "label": "ITEM NUMBER"
+          }
+        ],
+        "description": "THREAD LOCKER BLUE 242 50ML",
+        "quantity": 6,
+        "uom": "EA",
+        "unitPrice": 18.95,
+        "extendedPrice": 113.7,
+        "requestedDeliveryDate": "01-DEC-26"
+      },
+      {
+        "kind": "product",
+        "rawText": "013 C-GLV-NIT-L     GLOVE NITRILE 6MIL LG                 4 CS      62.0000       248.00  01-DEC-26",
+        "lineNumber": "013",
+        "identifiers": [
+          {
+            "value": "C-GLV-NIT-L",
+            "label": "ITEM NUMBER"
+          }
+        ],
+        "description": "GLOVE NITRILE 6MIL LG",
+        "quantity": 4,
+        "uom": "CS",
+        "unitPrice": 62.0,
+        "extendedPrice": 248.0,
+        "requestedDeliveryDate": "01-DEC-26"
+      },
+      {
+        "kind": "product",
+        "rawText": "014 C-TAPE-48       TAPE DUCT 48MM X 55M SLV             24 RL       6.4000       153.60  01-DEC-26",
+        "lineNumber": "014",
+        "identifiers": [
+          {
+            "value": "C-TAPE-48",
+            "label": "ITEM NUMBER"
+          }
+        ],
+        "description": "TAPE DUCT 48MM X 55M SLV",
+        "quantity": 24,
+        "uom": "RL",
+        "unitPrice": 6.4,
+        "extendedPrice": 153.6,
+        "requestedDeliveryDate": "01-DEC-26"
+      }
+    ]
+  },
+  "heroNotes": "ERP printout, 14 lines, line-level due dates. Traps: VENDOR 000318 is the distributor's vendor id at Calder, NOT the customer account (that is OUR ACCOUNT NO). Per-line nullable fields x 14 lines also gives incidental evidence for the 16-nullable-limit spike."
+}

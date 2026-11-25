@@ -1,0 +1,32 @@
+CALDER MANUFACTURING INC                              PURCHASE ORDER
+2200 INDUSTRIAL PKWY                                  PO NUMBER: P0061734
+DAYTON OH 45414                                       PO DATE:   24-NOV-26
+                                                      PAGE 1 OF 1
+VENDOR: 000318  MIDWEST FASTENER & SUPPLY             BUYER: J. OKAFOR
+OUR ACCOUNT NO: CAL-2207                              TERMS: NET 30
+SHIP TO: CALDER MFG - BLDG C RECEIVING                SHIP VIA: BEST WAY
+         2240 INDUSTRIAL PKWY DOCK 4
+         DAYTON OH 45414
+BILL TO: ACCOUNTS PAYABLE, PO BOX 8812, DAYTON OH 45401
+--------------------------------------------------------------------------------------------------
+LN  ITEM NUMBER     DESCRIPTION                         QTY UM   UNIT PRICE    EXTENSION  DUE DATE
+--- --------------- ------------------------------ -------- --------------- ------------  ---------
+001 C-HCS-5-0612    HCS 5/16-18 X 3/4 GR5 ZP            500 EA       0.1420        71.00  01-DEC-26
+002 C-HCS-5-0616    HCS 5/16-18 X 1 GR5 ZP              500 EA       0.1580        79.00  01-DEC-26
+003 C-HCS-8-0820    HCS 1/2-13 X 1-1/4 GR8 YZ           200 EA       0.6100       122.00  01-DEC-26
+004 C-HN-5-05       HEX NUT 5/16-18 GR5 ZP               10 BX       9.8500        98.50  01-DEC-26
+005 C-HN-8-08       HEX NUT 1/2-13 GR8 YZ                 2 BX      14.2000        28.40  01-DEC-26
+006 C-FW-05         FLAT WASHER 5/16 USS ZP           1,000 EA       0.0310        31.00  01-DEC-26
+007 C-FW-08         FLAT WASHER 1/2 USS ZP              500 EA       0.0590        29.50  01-DEC-26
+008 C-LW-05         LOCK WASHER 5/16 ZP               1,000 EA       0.0220        22.00  01-DEC-26
+009 C-SHCS-0610     SHCS M6-1.0 X 20 12.9 BLK           300 EA       0.1900        57.00  08-DEC-26
+010 C-SHCS-0825     SHCS M8-1.25 X 25 12.9 BLK          300 EA       0.2700        81.00  08-DEC-26
+011 C-NYL-06        NYLOCK NUT M6 CL8 ZP                300 EA       0.0750        22.50  08-DEC-26
+012 C-TB-14         THREAD LOCKER BLUE 242 50ML           6 EA      18.9500       113.70  01-DEC-26
+013 C-GLV-NIT-L     GLOVE NITRILE 6MIL LG                 4 CS      62.0000       248.00  01-DEC-26
+014 C-TAPE-48       TAPE DUCT 48MM X 55M SLV             24 RL       6.4000       153.60  01-DEC-26
+--------------------------------------------------------------------------------------------------
+                                                                          ORDER TOTAL     1,157.20
+
+SPECIAL INSTRUCTIONS: MATERIAL CERTS REQUIRED ON ALL GR8 ITEMS.
+*** CONFIRM ALL PRICES BEFORE SHIPPING - PACKING SLIP MUST SHOW PO NUMBER ***

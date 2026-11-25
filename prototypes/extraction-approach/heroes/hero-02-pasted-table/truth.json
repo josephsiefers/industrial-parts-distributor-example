@@ -1,0 +1,109 @@
+{
+  "classification": "purchase_order",
+  "expectedPurchaseOrder": {
+    "poNumber": "78812",
+    "poDate": null,
+    "requestedDeliveryDate": "11/30/2026",
+    "customerAccountNumber": "10442",
+    "shipToText": "our main plant",
+    "billToText": null,
+    "notes": null,
+    "orderTotal": 315.0,
+    "lines": [
+      {
+        "kind": "product",
+        "rawText": "1     TSF-00931    91251A540      SHCS 1/4-20X3/4 BLK OX ALLOY STL    400   EA    0.21      84.00",
+        "lineNumber": "1",
+        "identifiers": [
+          {
+            "value": "TSF-00931",
+            "label": "Item#"
+          },
+          {
+            "value": "91251A540",
+            "label": "Mfr Part"
+          }
+        ],
+        "description": "SHCS 1/4-20X3/4 BLK OX ALLOY STL",
+        "quantity": 400,
+        "uom": "EA",
+        "unitPrice": 0.21,
+        "extendedPrice": 84.0,
+        "requestedDeliveryDate": null
+      },
+      {
+        "kind": "product",
+        "rawText": "2     TSF-01277                   HEX NUT 3/8-16 GR8 YEL ZN             5    C    11.40      57.00",
+        "lineNumber": "2",
+        "identifiers": [
+          {
+            "value": "TSF-01277",
+            "label": "Item#"
+          }
+        ],
+        "description": "HEX NUT 3/8-16 GR8 YEL ZN",
+        "quantity": 5,
+        "uom": "C",
+        "unitPrice": 11.4,
+        "extendedPrice": 57.0,
+        "requestedDeliveryDate": null
+      },
+      {
+        "kind": "product",
+        "rawText": "3     TSF-00412    98023A031      FLAT WASHER 3/8 SAE ZN            1000   EA    0.06      60.00",
+        "lineNumber": "3",
+        "identifiers": [
+          {
+            "value": "TSF-00412",
+            "label": "Item#"
+          },
+          {
+            "value": "98023A031",
+            "label": "Mfr Part"
+          }
+        ],
+        "description": "FLAT WASHER 3/8 SAE ZN",
+        "quantity": 1000,
+        "uom": "EA",
+        "unitPrice": 0.06,
+        "extendedPrice": 60.0,
+        "requestedDeliveryDate": null
+      },
+      {
+        "kind": "product",
+        "rawText": "4                  2-RL-14THHN    14 AWG THHN BLK 500FT                 2   RL   48.50      79.00",
+        "lineNumber": "4",
+        "identifiers": [
+          {
+            "value": "2-RL-14THHN",
+            "label": "Mfr Part"
+          }
+        ],
+        "description": "14 AWG THHN BLK 500FT",
+        "quantity": 2,
+        "uom": "RL",
+        "unitPrice": 48.5,
+        "extendedPrice": 79.0,
+        "requestedDeliveryDate": null
+      },
+      {
+        "kind": "charge",
+        "rawText": "5     FREIGHT                     FREIGHT - PREPAID & ADD               1   EA   35.00      35.00",
+        "lineNumber": "5",
+        "identifiers": [
+          {
+            "value": "FREIGHT",
+            "label": "Item#"
+          }
+        ],
+        "description": "FREIGHT - PREPAID & ADD",
+        "quantity": 1,
+        "uom": "EA",
+        "unitPrice": 35.0,
+        "extendedPrice": 35.0,
+        "requestedDeliveryDate": null
+      }
+    ]
+  },
+  "heroNotes": "Pasted table, misaligned. Traps: line 4 Ext is 79.00 but 2 x 48.50 = 97.00 (customer_math_error) and must be copied as 79.00, not fixed; line 4 has no Item#, its identifier sits under Mfr Part; line 2 UOM 'C' = per hundred; line 5 is a charge. Order total 315.00 matches the as-written extensions."
+}

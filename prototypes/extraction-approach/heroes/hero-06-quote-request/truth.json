@@ -1,0 +1,5 @@
+{
+  "classification": "quote_request",
+  "expectedPurchaseOrder": null,
+  "heroNotes": "Looks like an order (quantities, a date, a price hint) but explicitly says 'Before I cut a PO'. Must classify as quote_request and produce no Purchase Order."
+}

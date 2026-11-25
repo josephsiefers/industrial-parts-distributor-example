@@ -1,0 +1,84 @@
+{
+  "classification": "purchase_order",
+  "expectedPurchaseOrder": {
+    "poNumber": "2026-1187",
+    "poDate": null,
+    "requestedDeliveryDate": null,
+    "customerAccountNumber": null,
+    "shipToText": "Lakeside jobsite, 1400 Lakeside Dr, Bldg B, Columbus OH 43215",
+    "billToText": null,
+    "notes": "Call Tony 30 min before (614-555-0144).",
+    "orderTotal": null,
+    "lines": [
+      {
+        "kind": "product",
+        "rawText": "100   WA-38-300     3/8 x 3 wedge anchor zinc            $0.92",
+        "lineNumber": null,
+        "identifiers": [
+          {
+            "value": "WA-38-300",
+            "label": "Item"
+          }
+        ],
+        "description": "3/8 x 3 wedge anchor zinc",
+        "quantity": 150,
+        "uom": null,
+        "unitPrice": 0.92,
+        "extendedPrice": null,
+        "requestedDeliveryDate": null
+      },
+      {
+        "kind": "product",
+        "rawText": "50    WA-12-400     1/2 x 4 wedge anchor zinc            $1.68",
+        "lineNumber": null,
+        "identifiers": [
+          {
+            "value": "WA-12-400",
+            "label": "Item"
+          }
+        ],
+        "description": "1/2 x 4 wedge anchor zinc",
+        "quantity": 50,
+        "uom": null,
+        "unitPrice": 1.68,
+        "extendedPrice": null,
+        "requestedDeliveryDate": null
+      },
+      {
+        "kind": "product",
+        "rawText": "25    TR-38-10      3/8-16 x 10ft threaded rod zinc      $6.75",
+        "lineNumber": null,
+        "identifiers": [
+          {
+            "value": "TR-38-10",
+            "label": "Item"
+          }
+        ],
+        "description": "3/8-16 x 10ft threaded rod zinc",
+        "quantity": 25,
+        "uom": null,
+        "unitPrice": 6.75,
+        "extendedPrice": null,
+        "requestedDeliveryDate": null
+      },
+      {
+        "kind": "product",
+        "rawText": "200   HN-38-ZN      3/8-16 hex nut zinc                  $0.07",
+        "lineNumber": null,
+        "identifiers": [
+          {
+            "value": "HN-38-ZN",
+            "label": "Item"
+          }
+        ],
+        "description": "3/8-16 hex nut zinc",
+        "quantity": 200,
+        "uom": null,
+        "unitPrice": 0.07,
+        "extendedPrice": null,
+        "requestedDeliveryDate": null
+      }
+    ]
+  },
+  "heroNotes": "Forwarded thread: the order is the top message, which approves OUR quote below it with one amendment. OPEN QUESTION this hero exists to provoke: line 1 rawText says 100 but the customer's instruction says 150. Truth here applies the amendment (qty 150). The alternative is to copy 100 and raise a Flag. The identifiers are the distributor's own SKUs from the quote."
+}

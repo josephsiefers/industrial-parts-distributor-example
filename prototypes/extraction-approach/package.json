@@ -1,0 +1,16 @@
+{
+  "name": "prototype-extraction-approach",
+  "private": true,
+  "type": "module",
+  "description": "PROTOTYPE, throwaway. Answers the 'Extraction approach' Wayfinder ticket.",
+  "scripts": {
+    "extract": "tsx --env-file-if-exists=../../.env run.ts",
+    "report": "tsx report.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.14.0",
+    "openai": "^7.64.0",
+    "tsx": "^4.23.15",
+    "zod": "^4.6.7"
+  }
+}

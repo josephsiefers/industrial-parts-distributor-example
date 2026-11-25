@@ -1,0 +1,74 @@
+{
+  "classification": "purchase_order",
+  "expectedPurchaseOrder": {
+    "poNumber": "4500-2231",
+    "poDate": null,
+    "requestedDeliveryDate": "03/04",
+    "customerAccountNumber": null,
+    "shipToText": "Plant 2 dock",
+    "billToText": null,
+    "notes": null,
+    "orderTotal": null,
+    "lines": [
+      {
+        "kind": "product",
+        "rawText": "- 500 of our P/N RP-44817, the 1/4-20 x 1\" hex cap screws grade 5 zinc. Same as last time.",
+        "lineNumber": null,
+        "identifiers": [
+          {
+            "value": "RP-44817",
+            "label": "our P/N"
+          }
+        ],
+        "description": "1/4-20 x 1\" hex cap screws grade 5 zinc",
+        "quantity": 500,
+        "uom": null,
+        "unitPrice": null,
+        "extendedPrice": null,
+        "requestedDeliveryDate": null
+      },
+      {
+        "kind": "product",
+        "rawText": "- 2 boxes of the large nitrile gloves (your 61-NG-L)",
+        "lineNumber": null,
+        "identifiers": [
+          {
+            "value": "61-NG-L",
+            "label": "your"
+          }
+        ],
+        "description": "large nitrile gloves",
+        "quantity": 2,
+        "uom": "boxes",
+        "unitPrice": null,
+        "extendedPrice": null,
+        "requestedDeliveryDate": null
+      },
+      {
+        "kind": "product",
+        "rawText": "- 12 rolls blue painters tape 2\" - whatever you have that's the 3M one",
+        "lineNumber": null,
+        "identifiers": [],
+        "description": "blue painters tape 2\"",
+        "quantity": 12,
+        "uom": "rolls",
+        "unitPrice": null,
+        "extendedPrice": null,
+        "requestedDeliveryDate": null
+      },
+      {
+        "kind": "product",
+        "rawText": "- 250 ea 1/4\" split lock washers, zinc",
+        "lineNumber": null,
+        "identifiers": [],
+        "description": "1/4\" split lock washers, zinc",
+        "quantity": 250,
+        "uom": "ea",
+        "unitPrice": null,
+        "extendedPrice": null,
+        "requestedDeliveryDate": null
+      }
+    ]
+  },
+  "heroNotes": "Prose. Judgment calls: '03/04' is ambiguous (US: Mar 4) and must stay verbatim; line 1 has no UOM (null, not 'ea'); 61-NG-L is labelled 'your' (it's actually our SKU, matching decides); tape line is description-only; 'Same as last time' and 'the 3M one' are line commentary, not header notes."
+}

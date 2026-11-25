@@ -1,0 +1,9 @@
+{
+  "from": "Carla Mendez <purchasing@tristatefab.example>",
+  "to": [
+    "orders@midwestfastener.example"
+  ],
+  "cc": [],
+  "subject": "PO 78812",
+  "receivedAt": "2026-11-23T13:11:00Z"
+}

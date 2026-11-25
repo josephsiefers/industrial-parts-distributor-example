@@ -1,0 +1,9 @@
+{
+  "from": "Mike Hollis <mike.hollis@ridgelinepkg.example>",
+  "to": [
+    "orders@midwestfastener.example"
+  ],
+  "cc": [],
+  "subject": "Order - PO 4500-2231",
+  "receivedAt": "2026-11-23T14:02:00Z"
+}
